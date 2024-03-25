@@ -1,8 +1,6 @@
 import "package:isar/isar.dart";
 
-part "todo_model.g.dart";
-
-// required and nullable properties and default values
+part 'todo_model.g.dart';
 
 @collection
 class Todo {
@@ -20,15 +18,8 @@ class Todo {
   });
 }
 
-// Class for updating the todo
 class UpdateTodo {
-  final String? title;
-  final String? description;
-  final bool? completed;
-
-  UpdateTodo({
-    this.title,
-    this.description,
-    this.completed,
-  });
+  String? title;
+  String? description;
+  bool? completed;
 }

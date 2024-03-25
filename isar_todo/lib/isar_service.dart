@@ -1,5 +1,5 @@
 import 'package:isar/isar.dart';
-import 'package:isar_todo/todo/todo_model.dart';
+import 'package:isar_todo/model/todo_model.dart';
 import "package:path_provider/path_provider.dart";
 
 // Isar service that open and close the db
